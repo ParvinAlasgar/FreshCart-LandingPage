@@ -54,7 +54,6 @@ html {
     display: none; } }
 
 #main #hero {
-  height: 10rem !important;
   margin-top: 10rem;
   padding: 5rem 0; }
   #main #hero .content {
@@ -66,3 +65,10 @@ html {
       font-size: 1rem; }
     #main #hero p {
       font-size: 1rem; } }
+
+#main #category .card {
+  transition: border-color 0.5s;
+  cursor: pointer;
+  height: 12rem; }
+  #main #category .card:hover {
+    border-color: #0aad0a; }

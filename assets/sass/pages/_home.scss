@@ -2,7 +2,6 @@
 #main {
   // Hero
   #hero {
-    height: 10rem !important;
     margin-top: 10rem;
     padding: 5rem 0;
     .content {
@@ -17,6 +16,17 @@
       p {
         font-size: 1rem;
       }
+    }
+  }
+  // Category
+  #category {
+    .card {
+      transition: border-color 0.5s;
+      cursor: pointer;
+      &:hover {
+        border-color: $primary-color;
+      }
+      height: 12rem;
     }
   }
 }
