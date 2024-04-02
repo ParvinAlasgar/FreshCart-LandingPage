@@ -72,3 +72,7 @@ html {
   height: 12rem; }
   #main #category .card:hover {
     border-color: #0aad0a; }
+
+#main #banner .banner .banner-content {
+  left: 2rem;
+  bottom: 2rem; }
