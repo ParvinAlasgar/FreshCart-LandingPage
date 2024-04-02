@@ -38,4 +38,30 @@
       }
     }
   }
+  //Product
+  #product {
+    .card {
+      cursor: pointer;
+      transition: border-color 0.5s;
+      &:hover {
+        border-color: $primary-color;
+        .card-icons {
+          visibility: visible;
+        }
+      }
+      .card-icons {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: hidden;
+        i {
+          transition: background-color 0.5s;
+          &:hover {
+            background-color: $primary-color;
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }

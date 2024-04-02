@@ -76,3 +76,21 @@ html {
 #main #banner .banner .banner-content {
   left: 2rem;
   bottom: 2rem; }
+
+#main #product .card {
+  cursor: pointer;
+  transition: border-color 0.5s; }
+  #main #product .card:hover {
+    border-color: #0aad0a; }
+    #main #product .card:hover .card-icons {
+      visibility: visible; }
+  #main #product .card .card-icons {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden; }
+    #main #product .card .card-icons i {
+      transition: background-color 0.5s; }
+      #main #product .card .card-icons i:hover {
+        background-color: #0aad0a;
+        color: white; }
