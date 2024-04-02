@@ -39,7 +39,8 @@
     }
   }
   //Product
-  #product {
+  #product,
+  #best {
     .card {
       cursor: pointer;
       transition: border-color 0.5s;
@@ -55,6 +56,7 @@
         transform: translate(-50%, -50%);
         visibility: hidden;
         i {
+          background-color: #fff;
           transition: background-color 0.5s;
           &:hover {
             background-color: $primary-color;

@@ -77,20 +77,27 @@ html {
   left: 2rem;
   bottom: 2rem; }
 
-#main #product .card {
+#main #product .card,
+#main #best .card {
   cursor: pointer;
   transition: border-color 0.5s; }
-  #main #product .card:hover {
+  #main #product .card:hover,
+  #main #best .card:hover {
     border-color: #0aad0a; }
-    #main #product .card:hover .card-icons {
+    #main #product .card:hover .card-icons,
+    #main #best .card:hover .card-icons {
       visibility: visible; }
-  #main #product .card .card-icons {
+  #main #product .card .card-icons,
+  #main #best .card .card-icons {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     visibility: hidden; }
-    #main #product .card .card-icons i {
+    #main #product .card .card-icons i,
+    #main #best .card .card-icons i {
+      background-color: #fff;
       transition: background-color 0.5s; }
-      #main #product .card .card-icons i:hover {
+      #main #product .card .card-icons i:hover,
+      #main #best .card .card-icons i:hover {
         background-color: #0aad0a;
         color: white; }
