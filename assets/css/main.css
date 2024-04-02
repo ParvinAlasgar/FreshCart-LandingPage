@@ -101,3 +101,9 @@ html {
       #main #best .card .card-icons i:hover {
         background-color: #0aad0a;
         color: white; }
+
+#main #feature i {
+  color: #0aad0a; }
+
+#main #feature h6 {
+  margin: 1rem 0; }
