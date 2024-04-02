@@ -1,0 +1,22 @@
+// Main
+#main {
+  // Hero
+  #hero {
+    height: 10rem !important;
+    margin-top: 10rem;
+    padding: 5rem 0;
+    .content {
+      padding: 5rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    @include for-medium-devices {
+      h1 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

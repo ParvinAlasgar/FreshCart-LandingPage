@@ -52,3 +52,17 @@ html {
 @media only screen and (max-width: 576px) {
   #header .navbar i {
     display: none; } }
+
+#main #hero {
+  height: 10rem !important;
+  margin-top: 10rem;
+  padding: 5rem 0; }
+  #main #hero .content {
+    padding: 5rem;
+    top: 50%;
+    transform: translateY(-50%); }
+  @media (max-width: 768px) {
+    #main #hero h1 {
+      font-size: 1rem; }
+    #main #hero p {
+      font-size: 1rem; } }
