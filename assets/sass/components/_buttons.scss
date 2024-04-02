@@ -1,0 +1,10 @@
+.primary-btn {
+  background-color: $primary-color;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: green;
+  }
+}
+// <button class="btn primary-btn text-white">
+// <span class="fa-solid fa-bars"></span> All Departments
+// </button>

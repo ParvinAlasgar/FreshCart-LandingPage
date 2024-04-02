@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshCart</title>
+    <!-- Favicon icon -->
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome/css/fontawesome.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/libraries/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="position-fixed top-0 start-0 z-3 w-100 bg-white">
+      <div class="header-top bg bg-secondary-subtle py-1">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6 col-md-6">
+              <p class="text-secondary m-0">
+                Super Value Deals - Save more with coupons
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="lang d-flex column-gap-3">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/united-kingdom.png"
+                  alt="ukLang"
+                />
+                <select class="bg-transparent text-secondary border-0">
+                  <option class="bg-white" value="eng">English</option>
+                  <option class="bg-white" value="de">Deutsch</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle py-3">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-2 col-md-2 col-6">
+              <div class="header-logo">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/freshcart-logo.svg"
+                  alt="logo"
+                />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 d-none d-md-block">
+              <form action="#">
+                <input
+                  class="form-control text-secondary"
+                  type="text"
+                  placeholder="Search for products"
+                />
+              </form>
+            </div>
+            <div class="col-lg-3 col-md-2 d-none d-md-block">
+              <button
+                class="btn btn border text-secondary d-flex align-items-center"
+              >
+                <i class="fa-solid fa-map me-2"></i>
+                Location
+              </button>
+            </div>
+            <div class="col-lg-2 col-md-2 col-3">
+              <ul class="list-unstyled d-flex m-0">
+                <li class="p-2 position-relative">
+                  <a class="text-decoration-none" href="#"
+                    ><i class="fa-regular fa-heart text-secondary"></i>
+                  </a>
+                  <span
+                    class="position-absolute top-0 bg-success rounded-circle text-white"
+                    >5</span
+                  >
+                </li>
+                <li class="p-2">
+                  <a class="text-decoration-none" href="#"
+                    ><i class="fa-regular fa-user text-secondary fa-2x"></i
+                  ></a>
+                </li>
+                <li class="p-2 position-relative">
+                  <a class="text-decoration-none" href="#"
+                    ><i
+                      class="fa-solid fa-basket-shopping text-secondary fa-2x"
+                    ></i>
+                  </a>
+                  <span
+                    class="position-absolute top-0 bg-success rounded-circle text-white"
+                    >1</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <ul
+                class="list-unstyled d-flex m-0 column-gap-2 align-items-center"
+              >
+                <li class="dropdown position-relative">
+                  <a
+                    class="text-decoration-none text-white btn primary-btn"
+                    href="#"
+                    ><i class="fa-solid fa-bars"></i> All Departments</a
+                  >
+                  <ul
+                    class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                  >
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Dairy, Bread & Eggs</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Snacks & Munchies</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#">
+                        Fruits & Vegetables</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Cold Drinks & Juices</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Breakfast & Instant Food</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Bakery & Biscuits</a
+                      >
+                    </li>
+                    <li class="p-1">
+                      <a class="text-decoration-none text-secondary" href="#"
+                        >Chincken, Meat & Fish</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown position-relative">
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Home<i class="fa-solid fa-chevron-down"></i>
+                    <ul
+                      class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                    >
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Home 1</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Home 2</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Home 3</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Home 4</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Home 5</a
+                        >
+                      </li>
+                    </ul></a
+                  >
+                </li>
+                <li class="dropdown position-relative">
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Shop<i class="fa-solid fa-chevron-down"></i>
+                    <ul
+                      class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                    >
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shopt Frid - Filter</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shopt Grid - 3 column</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop List - Filter</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Wide</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Single</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Single v2</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Wishlist</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Cart</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Shop Checkout</a
+                        >
+                      </li>
+                    </ul></a
+                  >
+                </li>
+                <li class="dropdown position-relative">
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Stores<i class="fa-solid fa-chevron-down"></i>
+                    <ul
+                      class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                    >
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Store List</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Store Grid</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Store Grid</a
+                        >
+                      </li>
+                    </ul></a
+                  >
+                </li>
+                <li class="dropdown position-relative">
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Pages<i class="fa-solid fa-chevron-down"></i>
+                    <ul
+                      class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                    >
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Blog</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Blog Single</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Blog Category</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >About us</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul></a
+                  >
+                </li>
+                <li class="dropdown position-relative">
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Account<i class="fa-solid fa-chevron-down"></i>
+                    <ul
+                      class="list-unstyled bg-white shadow position-absolute p-2 rounded-3"
+                    >
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Sign in</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Signup</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >Forget Password</a
+                        >
+                      </li>
+                      <li class="p-1">
+                        <a class="text-decoration-none text-secondary" href="#"
+                          >My account</a
+                        >
+                      </li>
+                    </ul></a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Dashboard<i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Docs<i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr />
+    </header>
+  </body>
+</html>
